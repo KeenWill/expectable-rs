@@ -2,8 +2,7 @@
 
 Text tables for Rust expect tests, inspired by [Jane Street's OCaml
 expectable](https://github.com/janestreet/expectable). Rows only need
-`serde::Serialize`; no `Debug` implementation or output parsing is involved.
-Requires Rust 1.97.1 (edition 2024). Licensed under MIT.
+`serde::Serialize`. Licensed under MIT.
 
 ```rust
 use serde_derive::Serialize;
